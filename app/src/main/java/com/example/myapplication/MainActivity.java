@@ -42,9 +42,9 @@ public class MainActivity extends AppCompatActivity {
                 new Response.Listener<String>() {
                     @Override
                     public void onResponse(String response) {
-                        //Log.d(TAG, "onResponse: " + response);
-                        textView = (TextView) findViewById(R.id.textView);
-                        textView.setText(response);
+                        Log.d(TAG, "onResponse: " + response);
+                        //textView = (TextView) findViewById(R.id.textView);
+                        //textView.setText(response);
                     }
                 },
                 new Response.ErrorListener() {
